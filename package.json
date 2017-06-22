@@ -2,7 +2,7 @@
 	"name" : "NodeTest",
 	"version" : "0.0.1",
 	"description" : "first node test",
-	"author" : "Jirka Dell'Oro-Friedl'",
+	"author" : "Salome Weisser",
 	"main" : "NodeTest.js",
 	"scripts" : {
 		"start" : "node NodeTest.js"
