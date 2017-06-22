@@ -239,6 +239,7 @@ var aufgabe9_Forms;
         else {
             alert("Thank you for your order!");
         }
+        document.getElementById("forms").submit();
     }
 })(aufgabe9_Forms || (aufgabe9_Forms = {}));
 //# sourceMappingURL=Forms.js.map

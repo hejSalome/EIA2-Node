@@ -285,5 +285,6 @@ namespace aufgabe9_Forms {
         else {
             alert("Thank you for your order!");
         }
+        (<HTMLFormElement>document.getElementById("forms")).submit();
     }
 }
