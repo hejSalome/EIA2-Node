@@ -1,0 +1,92 @@
+<!-- Aufgabe: Aufgabe 9
+//Name: Salome Weisser
+//Matrikel: 254669
+//Datum: 03.06.2017
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Aufgabe 9 - Ice Cream </title>
+<meta name="description" content="">
+<meta name="author" content="Salome">
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<script src="Forms.js"></script>
+<link rel="stylesheet" href="Forms.css">
+
+</head>
+<body>
+	<h1>Get your ice cream!</h1>
+
+
+	<main> 
+	
+	<!-- Eissorten -->
+	<fieldset id="flavours">
+		<legend>
+			<strong>Ice Cream Bowl - 1€</strong>
+		</legend>
+	</fieldset>
+
+	<!-- Waffle or Cup? -->
+	<fieldset id="ConeCup">
+		<legend>
+			<strong>Waffle or Cup?</strong>
+		</legend>
+	</fieldset>
+
+	<!-- Toppings -->
+	<fieldset id="Special">
+		<legend>
+			<strong>Toppings - 0,50€</strong>
+		</legend>
+	</fieldset>
+	</main>
+
+	<aside>
+		<!-- Bestellübersicht -->
+		<fieldset id="shoppingcard">
+			<legend>
+				<strong>Summary of order</strong>
+			</legend>
+			<span id="productlist"></span>
+			<hr>
+			<span id="total">Sum: 0€</span>
+		</fieldset>
+
+		<!-- Adresse -->
+		<fieldset id="address">
+			<legend>
+				<strong>Adresse</strong>
+			</legend>
+			Vorname <input type="text" name="FirstName"
+				placeholder="Vorname" required id="firstname" /><br>
+			Name <input type="text" name="LastName"
+				placeholder="Nachname" required id="name" /><br>
+			Straße <input type="text" name="Street"
+				placeholder="Straßenname" required id="street" /><br>
+			Postleitzahl <input type="text" name="PostalCode"
+				pattern="[0-9, A-Z]{5}" placeholder="5 Zahlen eingeben"
+				required id="PLZ" /><br> Ort <input type="text" name="City"
+				placeholder="Stadt" required id="city" /><br>
+			Email <input type="email" name="Email"
+				placeholder="platziere @ dazwischen" required id="mail" />
+			<hr />
+			<select name="Delivery" id="delivery">
+				<option value="" disabled selected>Shipping</option>
+				<option value="Express">Express</option>
+				<option value="Standard">Standard</option>
+			</select>
+			<hr>
+			<button name="Button" type="button" id="proofOrder">Proof and order order</button>
+		</fieldset>
+	</aside>
+</body>
+</html>
