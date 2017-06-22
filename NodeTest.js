@@ -22,7 +22,7 @@ function handleRequest(_request, _response) {
         console.log(key + ":" + query[key]);
     _response.setHeader("Access-Control-Allow-Origin", "*");
     _response.setHeader("content-type", "text/html; charset=utf-8");
-    _response.write("Ich ich höre Stimmen!");
+    // _response.write("Ich höre Stimmen!");
     for (key in query)
         _response.write(key + ":" + query[key]);
     _response.end();
