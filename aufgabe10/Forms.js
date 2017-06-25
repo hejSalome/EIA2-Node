@@ -1,5 +1,5 @@
-var aufgabe9;
-(function (aufgabe9) {
+var aufgabe10;
+(function (aufgabe10) {
     window.addEventListener("load", init);
     //Variablen
     let flavour;
@@ -152,5 +152,5 @@ var aufgabe9;
         let completeSum = document.getElementById("sum");
         completeSum.innerText = _sum.toString() + " €";
     }
-})(aufgabe9 || (aufgabe9 = {}));
+})(aufgabe10 || (aufgabe10 = {}));
 //# sourceMappingURL=Forms.js.map

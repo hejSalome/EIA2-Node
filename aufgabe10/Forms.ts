@@ -1,4 +1,4 @@
-namespace aufgabe9 {
+namespace aufgabe10 {
     window.addEventListener("load", init);
 
     //Variablen
